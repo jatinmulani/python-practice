@@ -1,2 +1,2 @@
-a = "jatin    ".rstrip()
+a = " ".isspace()
 print(a)

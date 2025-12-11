@@ -1,2 +1,3 @@
-a = "hi myself jatin".startswith("hi")
-print(a)
+a = "jaytin"
+n = int(input('enter from user'))
+print(n*a)

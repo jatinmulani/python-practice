@@ -1,2 +1,2 @@
-a = "helloword"
-print(a.upper())
+a = "hello word".startswith("hello")
+print(a)

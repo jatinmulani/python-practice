@@ -1,2 +1,3 @@
-a = "once upon a time".title()
-print(a)
+a = "python"
+n = a.startswith("py")
+print(a.endswith("on"))

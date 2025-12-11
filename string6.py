@@ -1,2 +1,2 @@
-a = "   jatin".lstrip()
+a = "jatin545".isalnum()
 print(a)

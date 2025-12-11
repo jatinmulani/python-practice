@@ -1,2 +1,2 @@
-a = "jatinmulai089@gmail.com".endswith(".com")
-print(a)
+a = input('enter from user')
+print('\n'.join(a))

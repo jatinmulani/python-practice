@@ -1,2 +1,2 @@
-a = "my name is gauttam".split()
+a = input('enter from user').isalpha()
 print(a)

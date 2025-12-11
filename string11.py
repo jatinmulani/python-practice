@@ -1,2 +1,2 @@
-a = "This is python".find("is")
-print(a)
+a = "jatin"
+print(5*a)

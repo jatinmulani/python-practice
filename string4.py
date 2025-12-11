@@ -1,2 +1,2 @@
-a = "once upon a time".capitalize()
+a = "jatin".isalpha()
 print(a)

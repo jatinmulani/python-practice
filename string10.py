@@ -1,2 +1,4 @@
-a = "my name is gauuttam ".replace(" ", "_")
-print(a)
+first_name = "jatin"
+last_name = "mulani"
+fullname = first_name+" " + last_name
+print(fullname)

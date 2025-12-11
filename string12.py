@@ -1,2 +1,4 @@
-a = "hella evera ona".count("a")
-print(a)
+a = "python"
+b = "programming"
+c = a+" "+b
+print(c)

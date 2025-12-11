@@ -1,3 +1,2 @@
-a = "mynameisgauttam"
-list = ''.join(a)
-print(list)
+a = input('enter vechile number plate').isalnum()
+print(a)

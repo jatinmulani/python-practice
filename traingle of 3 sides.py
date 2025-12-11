@@ -1,0 +1,7 @@
+a = float(input('enter your a '))
+b = float(input('enter your b '))
+c = float(input('enter youur c '))
+if (a+b > c) and (b+c > a) and (a+c > b):
+    print("the sides  form a valid traingle ")
+else:
+    print("the sides do not form  a valid traingle")

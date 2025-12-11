@@ -1,4 +1,7 @@
-j = 0
-for ch in range(1, 11):
-    j += 1
-    print(j)
+s = input('enter a string')
+count = 0
+for ch in s:
+    if (ch in "aeiouAEIOU"):
+        count += 1
+
+print(count)

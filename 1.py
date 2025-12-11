@@ -1,7 +1,5 @@
-s = input('enter a string')
-count = 0
-for ch in s:
-    if (ch in "aeiouAEIOU"):
-        count += 1
-
-print(count)
+a = " a boy is also become man"
+if (a.startswith(a)):
+    print('start with a')
+else:
+    print('no')

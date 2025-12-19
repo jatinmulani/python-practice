@@ -1,10 +1,20 @@
-a = input('enter from user ')
-if (a .isalpha()):
-    print('alphabadical')
-elif (a .isnumeric()):
-    print('numeric')
-elif (a .isalnum()):
-    print('alphanumeric')
+n = 5
 
-else:
-    print('invalid ')
+for i in range(n):
+    # star pattern
+    for j in range(n):
+        print("*", end=" ")
+
+    print("|", end=" ")
+
+    # number pattern
+    for j in range(1, n + 1):
+        print(j, end=" ")
+
+    print("|", end=" ")
+
+    # alphabet pattern
+    for j in range(n):
+        print(chr(65 + j), end=" ")
+
+    print()

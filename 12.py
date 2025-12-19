@@ -1,6 +1,3 @@
-a = input('enter from user')
-n = int(a)
-if (a.isdigit()):
-    print(n*n)
-else:
-    print("not a valid number")
+for i in range(1, 4+1):
+    for j in range(4-i):
+        print(' ', end=' ')

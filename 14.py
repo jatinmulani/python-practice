@@ -1,5 +1,12 @@
-a = input('enter a string')
-if (" " in a):
-    print('sentence')
-else:
-    print("single word")
+n = int(input('enter by user'))
+for i in range(n, 0, -1):
+    for k in range(n-i):
+        print(" ", end=' ')
+    for j in range(i):
+        print("*", end=' ')
+    print()
+# * * * * * * * * *
+#   * * * * * * *
+#     * * * * *
+#       * * *
+#         *

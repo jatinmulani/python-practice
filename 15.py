@@ -1,6 +1,7 @@
-a = input('enter a string')
-n = len(a)
-if (n % 2 == 0):
-    print('even lenth')
-else:
-    print('odd')
+n = int(input('enter by user'))
+for i in range(1, n+1):
+    for j in range(n-i):
+        print(' ', end=' ')
+    for k in range(n):
+        print("*", end=' ')
+    print()

@@ -1,5 +1,4 @@
-a = " a boy is also become man"
-if (a.startswith(a)):
-    print('start with a')
-else:
-    print('no')
+for i in range(4):
+    for j in range(4):
+        print('*', end='')
+    print()

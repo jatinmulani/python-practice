@@ -1,7 +1,17 @@
-n = int(input('enter from user'))
-for i in range(n, 0, -1):
-    for j in range(n-i):
-        print(' ', end=' ')
-    for k in range(1, i+1):
-        print(chr(65+k-1), end=' ')
-    print()
+# for i in range(1, 5):
+#     for j in range(1, 5):
+#         print(chr(65-1+j), end=" ")
+#     print(" ")
+# # A B C D
+# # A B C D
+# # A B C D
+# # A B C D
+
+
+# for i in range(1, 4):
+#     for j in range(1, 4):
+#         print(chr(65-1+j), end=" ")
+#     print("")
+# # A B C
+# # A B C
+# # A B C

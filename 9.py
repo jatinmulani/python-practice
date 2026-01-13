@@ -1,20 +1,11 @@
-n = 5
+# a = 1
+# for i in range(1, 5):
+#     for j in range(1, 5):
+#         print(chr(65-1+a), end=" ")
+#         a += 1
+#     print(" ")
 
-for i in range(n):
-    # star pattern
-    for j in range(n):
-        print("*", end=" ")
-
-    print("|", end=" ")
-
-    # number pattern
-    for j in range(1, n + 1):
-        print(j, end=" ")
-
-    print("|", end=" ")
-
-    # alphabet pattern
-    for j in range(n):
-        print(chr(65 + j), end=" ")
-
-    print()
+# # A B C D
+# # E F G H
+# # I J K L
+# # M N O P

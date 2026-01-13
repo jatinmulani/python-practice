@@ -1,12 +1,10 @@
-n = int(input('enter by user'))
-for i in range(n, 0, -1):
-    for k in range(n-i):
-        print(" ", end=' ')
-    for j in range(i):
-        print("*", end=' ')
-    print()
-# * * * * * * * * *
-#   * * * * * * *
-#     * * * * *
-#       * * *
-#         *
+# A
+# BC
+# DEF
+# GHIJ
+k = 1
+for i in range(1, 5):
+    for j in range(1, i+1):
+        print(chr(65-1+k), end="")
+        k += 1
+    print("")

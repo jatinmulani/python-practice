@@ -1,10 +1,15 @@
-n = int(input('enter by user'))
-for i in range(1, n):
-    for j in range(n-i):
-        print(" ", end=' ')
-    for j in range(2*i-1):
-        if i == n-1 or j == 0 or j == 2*i-2:
-            print('*', end=' ')
+
+for i in range(1, 6):
+    for j in range(1, 6-i+1):
+        if (j % 2 != 0):
+            print(1, end="")
         else:
-            print(' ', end=' ')
-    print()
+            print(0, end="")
+
+    print("")
+
+# 10101
+# 1010
+# 101
+# 10
+# 1

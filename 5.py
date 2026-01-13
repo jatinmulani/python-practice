@@ -1,6 +1,7 @@
-for i in range(1, 4+1):
-    for j in range(4-i):
-        print(' ', end=' ')
-    for k in range(i):
-        print(i, end=' ')
-    print()
+for i in range(65, 68):
+    for j in range(65, 68):
+        print(j, end=" ")
+    print("")
+# 65 66 67
+# 65 66 67
+# 65 66 67

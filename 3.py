@@ -1,4 +1,4 @@
-a = 97
-while (a <= 122):
-    print(chr(a))
-    a += 1
+mylist = [10, 20, 30, 40]
+mylist.append(1000)
+print(mylist)
+# add a new value at the last (insert)only one at once

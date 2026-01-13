@@ -1,16 +1,4 @@
-# n = int(input('enter from user : '))
-# count = 0
-# sum = 0
-# while (n > 0):
-#     count += 1
-#     n = n//10
-#     sum = sum+count
-# print(sum)
-n = int(input('enter from user : '))
-sum_digits = 0
-
-while n > 0:
-    sum_digits += n % 10
-    n = n // 10
-
-print(sum_digits)
+mylist = [10, 20, 30, 40]
+mylist.sort(reverse=True)
+print(mylist)
+# for printing in reverse

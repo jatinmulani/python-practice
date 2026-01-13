@@ -1,7 +1,8 @@
-s = "tushar"
-index = 0
-last = 5
-while (index < 6):
-    print("index", index, s[index], last, s[last])
-    index += 1
-    last -= 1
+mylist = [123, 500, 60, 400, 30]
+mini = mylist[0]
+for i in mylist:
+    print(i, mini)
+    if (i < mini):
+        mini = i
+        print("minimum number ", mini)
+# minimum number from ths list

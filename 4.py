@@ -1,5 +1,4 @@
-a = 1
-while (a <= 100):
-    if (a % 2 == 0):
-        print(a)
-    a += 1
+mylist = [10, 20, 30, 40]
+mylist.extend("heyy")
+mylist.extend([100, 101])
+print(mylist)

@@ -1,5 +1,3 @@
-n = int(input('enter from user : '))
-
-while n >= 1:
-    print(n)
-    n -= 1
+mylist = [10, 20, 30, 40]
+mylist[0] = 87  # update
+print(mylist)

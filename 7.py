@@ -1,18 +1,16 @@
-# for i in range(1, 5):
-#     for j in range(7, 3, -1):
-#         print(j, end="")
-#     print("")
+# n = int(input('enter from user : '))
+# count = 0
+# sum = 0
+# while (n > 0):
+#     count += 1
+#     n = n//10
+#     sum = sum+count
+# print(sum)
+n = int(input('enter from user : '))
+sum_digits = 0
 
+while n > 0:
+    sum_digits += n % 10
+    n = n // 10
 
-for j in range(1, 5):
-    x = 7
-    for j in range(1, 5):
-        print(x, end="")
-        x -= 1
-    print("")
-
-
-# 7654
-# 7654
-# 7654
-# 7654
+print(sum_digits)

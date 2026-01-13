@@ -1,11 +1,10 @@
-# a = 1
-# for i in range(1, 5):
-#     for j in range(1, 5):
-#         print(chr(65-1+a), end=" ")
-#         a += 1
-#     print(" ")
-
-# # A B C D
-# # E F G H
-# # I J K L
-# # M N O P
+data = "sanarsh"
+start = 0
+end = len(data)-1
+while (start < len(data)-1):
+    if (data[start] == data[end]):
+        print(start, end, data[start], data[end])
+    end += 1
+    if (end == start):
+        end = len(data)-1
+        start += 1

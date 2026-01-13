@@ -1,15 +1,4 @@
-
-for i in range(1, 6):
-    for j in range(1, 6-i+1):
-        if (j % 2 != 0):
-            print(1, end="")
-        else:
-            print(0, end="")
-
-    print("")
-
-# 10101
-# 1010
-# 101
-# 10
-# 1
+for i in range(2, 101):
+    if (int(i**0.5)**2 == i):
+        print(i)
+# perfect sqare code

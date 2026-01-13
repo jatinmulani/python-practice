@@ -1,10 +1,15 @@
-# A
-# BC
-# DEF
-# GHIJ
-k = 1
-for i in range(1, 5):
-    for j in range(1, i+1):
-        print(chr(65-1+k), end="")
-        k += 1
-    print("")
+# x = 0
+# i = 1
+# while (x < 10):
+#     if (i % 9 == 0):
+#         x += 1
+#         print(i, x)
+#     i += 1
+# # number divided by 9 up to 10
+x = 0
+i = 1
+while (x < 10):
+    if (i % 9 == 0):
+        x += 1
+        print(x, i)
+    i += 1

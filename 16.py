@@ -1,23 +1,18 @@
-# 4567
-# 567
-# 56
-# 5
-# x = 4
-
-# for i in range(1, 5):
-
-#     for j in range(1, 5-i+1):
-#         print(x+j-1, end="")
-#     x += 1
-#     print("")
-
-
-# using third varaible
-x = 4
-for i in range(1, 5):
-    temp = x
-    for j in range(1, 5-i+1):
-        print(temp, end="")
-        temp += 1
-    x += 1
-    print("")
+# s = "tushar"
+# index = 0
+# while (index < 6):
+#     print(s[index])
+#     index += 1
+# string k upr loop
+# s = "tusahr"
+# index = 0
+# while (index < len(s)):
+#     print(s[index])
+#     index += 1
+s = "tushar"
+index = 0
+last = len(s)-1
+while (index < len(s)):
+    print(s[last])
+    last -= 1
+    index += 1

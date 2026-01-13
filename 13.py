@@ -1,9 +1,6 @@
-# A
-# AB
-# ABC
-# ABCD
-
-for i in range(1, 5):
-    for j in range(1, i+1):
-        print(chr(65-1+j), end="")
-    print("")
+n = int(input('enter from user : '))
+prod = 1
+for i in range(n, 1, -1):
+    prod = prod*i
+print(prod)
+# code for factorial

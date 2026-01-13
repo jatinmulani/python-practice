@@ -1,7 +1,9 @@
-for i in range(65, 68):
-    for j in range(65, 68):
-        print(j, end=" ")
-    print("")
-# 65 66 67
-# 65 66 67
-# 65 66 67
+a = 1
+n = int(input('enter from user : '))
+sum = 0
+while (a <= n):
+    if (a % 2 != 0):
+        sum = sum+a
+
+    a += 1
+print(sum)

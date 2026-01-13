@@ -1,17 +1,7 @@
-# for i in range(1, 5):
-#     for j in range(1, 5):
-#         print(chr(65-1+j), end=" ")
-#     print(" ")
-# # A B C D
-# # A B C D
-# # A B C D
-# # A B C D
-
-
-# for i in range(1, 4):
-#     for j in range(1, 4):
-#         print(chr(65-1+j), end=" ")
-#     print("")
-# # A B C
-# # A B C
-# # A B C
+s = "tushar"
+index = 0
+last = 5
+while (index < 6):
+    print("index", index, s[index], last, s[last])
+    index += 1
+    last -= 1

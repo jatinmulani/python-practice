@@ -1,5 +1,12 @@
-mylist = [123, 500, 60, 400, 40, 30]
-for i in mylist:
-    if (i % 5 == 0):
-        print(i)
-# number divided by 5
+# write a function to remove duplicate elements from a list.
+# a. numbers=[1,2,3,2,4,5,1,6]
+# b,[1,2,3,4,5,6]
+number = [1, 2, 3, 2, 4, 5, 1, 6, 1]
+uniq = []
+dupl = []
+for i in number:
+    if i not in uniq:
+        uniq.append(i)
+    else:
+        dupl.append(i)
+print(uniq)

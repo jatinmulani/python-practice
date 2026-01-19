@@ -1,0 +1,74 @@
+# KBC
+#  kaun ban rha hai crorepati
+# question => list
+# question : [option a, b ,c , d]
+n = input('enter from user : ')
+questionlist = [
+    {"question": "who is the father of india ?",
+     "option": ["A . mamta", "B. MAHATMAGANDHI", "C. raga", "D. m modi"],
+     "correctanswer": "B"},
+    {"question": "who is current pm of india", "option": ["A. yodi ji", "B. mamta didi", "C.  modi ji ", " D. aalu m sona nikalne wala"],
+                 "correctanswer": "C"},
+    {"question": "which is best os", "option": [
+        "A.ARCH", "B.LINUX", "C.KALI LINUX", "D.FRENCH FIRES"], "correctanswer": "D"},
+    {"question": "which is best data science institute", "option": [
+        "A. grass", "B. ReGex", "C. technogable", "D. wscube"], "correctanswer": "B"},
+    {"question": "who is best faculty at regex", "option": [
+        "A. vinay sir", "B. tusharsir", "C. ayushman sir", "D. all of them "], "correctanswer": "D"},
+    {"question": "is hr class in mandatory?", "option": [
+        "A. yes ofcourse", "B. maybe ", "C. not likely", "D. ho to thek nhi ho to thek"], "correctanswer": "A"}
+]
+
+amountlist = [100, 200, 300, 600, 1200, 2400]
+helpline = {
+    "A": "help by friend",
+    "B": "50/50",
+    "C": "audience pool",
+    "D": "call by a specialist"
+}
+helpline_used = False
+x = 0
+total = 0
+all_correct = True
+for q in questionlist:
+    print(
+        f"apke samne pesh hai  question{x+1} for amount {amountlist[x]}:\n", q["question"])
+
+    for option in q["option"]:
+        print(option)
+    if not helpline_used:
+        print("press H to use helpline")
+
+    user_input = input('chose your answer from A B C D or H:').upper()
+    if (user_input == "H" and not helpline_used):
+        helpline_used = True
+        print("available helplines: ")
+        for key, value in helpline.items():
+            print(key, value)
+        help_choice = input("choose helpline  A B C or D: ")
+        if help_choice in helpline:
+            print("you selected:", helpline[help_choice])
+        else:
+            print("invalid helpline choice")
+        user_input = input("chose your answer A B C  or D").upper()
+    if (user_input == q["correctanswer"]):
+        total = total+amountlist[x]
+
+        print(
+            f" Badhai ho {n} ji aapka winning amount hai{amountlist[x]} \n to aage badhte hai  next question or ")
+    else:
+        print("galat answer")
+        break
+    x += 1
+if (all_correct and x == len(questionlist)):
+    print("\n🫡 BADHAI HO 🙌")
+    print(f"{n} ji , aapne saare question ka sahi jawab diya ")
+    print(f"aapka total winnning amount hai {total}")
+    print("baataiye , app apni jeeti hui rakm ka kya krenge")
+    print("1.investement")
+    print("2.travel")
+    print("3.skill upgrade")
+    print("4.fmaily k liiye save")
+    print("5. enjoy in thai")
+    choice = input("apna option (1-5):")
+    print("decision noted. game finshed.")

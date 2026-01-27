@@ -1,5 +1,26 @@
-# write a python program to flatten a nested list (list within lists) into a single list.
-# a. nested_list=[1,[2,3],[4,[5,6],7],8]
-# b. flattend list: [1,2,3,4,5,6,7,8]
-nested_list = [1, [2, 3], [4, [5, 6], 7], 8]
-flat_list = []
+# reutrn =statement used to end a function
+# and send a result back to the caller
+def add(x, y):
+    z = x+y
+    return z
+
+
+def substract(x, y):
+    z = x-y
+    return z
+
+
+def multiply(x, y):
+    z = x*y
+    return z
+
+
+def divide(x, y):
+    z = x/y
+    return z
+
+
+print(add(1, 2))
+print(substract(1, 2))
+print(multiply(1, 2))
+print(divide(1, 2))

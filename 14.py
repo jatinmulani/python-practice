@@ -1,15 +1,6 @@
-# x = 0
-# i = 1
-# while (x < 10):
-#     if (i % 9 == 0):
-#         x += 1
-#         print(i, x)
-#     i += 1
-# # number divided by 9 up to 10
-x = 0
-i = 1
-while (x < 10):
-    if (i % 9 == 0):
-        x += 1
-        print(x, i)
-    i += 1
+# variable lenth argument   = *args
+def fun_param(*num):
+    print(num)
+
+
+fun_param(10, 20, 2, 2, 21, 20, 1, 62, 26, 0, 661, 591)

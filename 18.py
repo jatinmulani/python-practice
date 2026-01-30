@@ -1,7 +1,17 @@
-total = 0
-i = 1
-while (total < 55):
-    total = total+i
-    print(total, i)
-    i += 1
-# sum up to 55
+# def fun():
+#     print("hello")
+
+
+# x = fun
+# # print("x value", x, fun)  # only use for memory address
+# fun()
+# x()
+# x k andar fun wale function ko as a variable daal diya
+
+# agr ham fun k aage bracket laga denge to error aaega
+def fun(x):
+    return x+20
+
+
+y = fun(40)
+print(y)

@@ -1,13 +1,7 @@
-# find comman element in  two list
-# list1=[1,2,3,4,5]
-# list2=[3,4,5,6,7]
-# result=[3,4,5]
-list1 = [1, 2, 3, 4, 5]
-list2 = [3, 4, 5, 6, 7]
-result = []
-for i in list1:
-    for j in list2:
-        if (i == j):
-            result.append(i)
-            break
-print("result is ", result)
+# function type of argument passing
+def fun_param(studentname, age, fee):
+    print(f"name{studentname},age:{age},fee:{fee}")
+
+
+# fun_param() error because no arguments passed
+fun_param("raj", 30, 20000)  # postional arguments

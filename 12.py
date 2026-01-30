@@ -1,9 +1,7 @@
-# find the longest word in list
-# a. words=["apple","banana","strawberry","kiwi"]
-#  output => strawberry
-words = ["apple", "banana", "strawberry", "kiwi"]
-bada = words[0]
-for w in words:
-    if (len(w) > len(bada)):
-        bada = w
-print(bada)
+# keyword arguments
+def fun_param(studentname, age, fee):
+    print(f"name:{studentname},age:{age},fee:{fee}")
+
+
+fun_param(fee=20000, age=20, studentname="jatin")
+# isme position  ka koi role nhi hai

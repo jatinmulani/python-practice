@@ -1,8 +1,9 @@
-# when a loop from the value 450 in the backward direction and you neet to printthose value up to 5 digit which are divided by 9 and 7
-i = 450
-x = 0
-while (x < 5):
-    if (i % 9 == 0 and i % 7 == 0):
-        print(i, x)
-        x += 1
-    i -= 1
+#   variable lenth keywords argument ==> **kwargs
+def fun_parm(**num):
+    print(num)
+
+
+fun_parm(a=10, b=10, name="jatin", class_type="python")
+# output ==> {'a': 10, 'b': 10, 'name': 'jatin', 'class_type': 'python'}
+fun_parm(gauttam="kumawta", z=10, high_level_order="difficult",)
+# {'gauttam': 'kumawta', 'z': 10, 'high_level_order': 'difficult'}

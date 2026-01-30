@@ -1,13 +1,17 @@
-# write a program to remove duplicate from a list while maintaining the order of elements
-# a. number=[1,2,2,3,3,4,4,4,5]
-# b. list after removing duplicate from list :[1,2,3,4,5]
-number = [1, 2, 2, 3, 3, 4, 4, 4, 5]
-uniq = []
-dupl = []
-for i in number:
-    if i not in uniq:
-        uniq.append(i)
-    else:
-        dupl.append(i)
-print('after removal of dupl list==', uniq)
-print("duplicate chacracter ", dupl)
+# # dictioery menthod
+# key : value { }
+# 1st method
+# d = {"name": "regex"}
+# # regex k value update krna chate hai
+# d.update({"name": "new"})
+# print(d)
+# # 2nd method for removing somethind
+# d2 = {"name": "regex", "salary": 1000}
+# d2.pop("salary")
+# print(d2)
+# 3rd method saari keyes acsess krne k liye
+# d3 = {"name": "regex", "salary": 1000}
+# print(d3.keys())
+# 4th key and value dono ko access krne k liye
+d4 = {"name": "regex", "salary": 1000}
+print(d4.items())

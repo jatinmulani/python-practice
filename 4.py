@@ -1,8 +1,17 @@
-# write a python program to sort a list in asceding order without sort function
-a = [100, 20, 5, 40, 8, 10]
-n = len(a)
-for i in range(n-1):
-    for j in range(n-1-i):
-        if (a[j] > a[j+1]):
-            a[j], a[j+1] = a[j+1], a[j]
-print(a)
+# function  k andar agr koi variable it is called local scope
+# function k bhar agr koi variable usko bhi print kar skte haii it is called global/session/program kahin pr bi print kr skte hai
+x = 100
+y = 20
+
+
+def add(a, b):
+   
+    print("memory of a & b", id(a), id(b))
+    a = 40
+    print("memory of a and b after update", id(a), id(b))
+    c = a+b
+    print("total is c", c)
+
+
+add(x, y)
+print("memory adress", id(x), id(y))

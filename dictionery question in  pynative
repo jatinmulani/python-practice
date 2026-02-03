@@ -1,0 +1,183 @@
+# # 1st 
+# my_dict = {'name': 'Alice', 'age': 35, 'city': 'New York'}
+# del my_dict
+# print(my_dict)
+# # Add New Key-Value Pair:
+# my_dict['profession'] = 'doctor'
+# print(my_dict)
+# # modification
+# my_dict['age']='40'
+# print(my_dict)
+# # access the value by key
+# print(my_dict['city'])
+
+# # 2nd
+# my_dict = {'name': 'Alice', 'age': 35, 'city': 'New York', 'profession': 'Doctor'}
+# # # Remove Key-Value Pair 
+# my_dict.pop('profession')
+# print(my_dict)
+# checking if age exist
+# for i in my_dict:
+#     if(i=='age'):
+#         print("exist")
+  
+# 3rd Write a Python program to convert two Python lists into a dictionary
+#  where elements from the first list become keys and elements from the second list become values.
+# keys = ['Ten', 'Twenty', 'Thirty']
+# values = [10, 20, 30]
+# result = {}
+# for i in range(len(keys)):
+#     result[keys[i]] = values[i]
+# print(result)
+
+# # 4th clear dictionery
+# my_dict = {'name': 'Alice', 'age': 35, 'city': 'New York'}
+# my_dict.clear()
+# print(my_dict)
+
+# 5th  merge two dictionery into one 
+# dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+# dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+# dict3={}
+# for i in dict1:
+#     dict3[i]=dict1[i]
+# for i in dict2:
+#     dict3[i]=dict2[i]
+# print(dict3)
+
+# # 6th Count Character Frequencies
+# string1 = 'Jessa'
+# new={}
+# for i in string1:
+#     if i in new:
+#         new[i]=new[i]+1
+#     else:
+#         new[i] =1
+# print(new)
+
+# # 7th Given a nested dictionary 
+# # {'person': {'name': 'Alice', 'age': 30}}, print Alice’s age.
+# data = {'person': {'name': 'Alice', 'age': 30}}
+# print(data['person']['age'])
+
+# # 8th print the value of key  'history' from nested dict
+# sampleDict = {
+#     "class": {
+#         "student": {
+#             "name": "Mike",
+#             "marks": {
+#                 "physics": 70,
+#                 "history": 80
+#             }
+#         }
+#     }
+# }
+# print(sampleDict["class"]["student"]["marks"]["history"])
+
+# # 9th modification in nested dict
+# nested_student_dict = {
+#     "class": {
+#         "student": {
+#             "name": "Mike",
+#             "marks": {
+#                 "physics": 70,
+#                 "history": 80
+#             }
+#         }
+#     }
+# }
+# nested_student_dict["class"]["student"]["name"]="jatin"
+# print(nested_student_dict)
+
+# # 10: Initialize dictionary with default values
+# employees = ['Kelly', 'Emma']
+# defaults = {"designation": 'Developer', "salary": 8000}
+# result = {}
+# for i in employees:
+#     temp = {}
+#     for k in defaults:
+#         temp[k] = defaults[k]
+#     result[i] = temp
+# print(result)
+
+# # 11 Write a Python program to create a new dictionary 
+# # by extracting the mentioned keys from the below dictionary
+# # keys = ["name", "salary"]
+# sample_dict = {
+#     "name": "Kelly",
+#     "age": 25,
+#     "salary": 8000,
+#     "city": "New york"}
+# keys = ["name", "salary"]
+# new={k:sample_dict[k] for k in keys} # this is dicitonery comphrehension it creates a new dictionary by picking only selected keys from sample_dict
+# print(new)
+
+# # 12 Delete a list of keys from a dictionary
+# sample_dict = {
+#     "name": "Kelly",
+#     "age": 25,
+#     "salary": 8000,
+#     "city": "New york"
+# }
+# # Keys to remove
+# keys = ["name", "salary"]
+# for i in keys:
+#     del sample_dict[i]
+# print(sample_dict)
+
+# # 13 While we know how to check for a key’s presence in a dictionary,
+# #  it’s sometimes necessary to determine if a specific value exists.
+# # Write a Python program to check 
+# # if the value 200 is present in the provided dictionary.
+# sample_dict = {'a': 100, 'b': 200, 'c': 300}
+# for i in sample_dict:
+#     if(sample_dict[i]==200):
+#         print("exist")
+
+# # 14 Write a program to rename a key 
+# # city to a location in the following dictionary.
+# sample_dict = {
+#   "name": "Kelly",
+#   "age":25,
+#   "salary": 8000,
+#   "city": "New york"
+# }
+# sample_dict["location"]=sample_dict.pop("city")
+# print(sample_dict)
+
+# # 15  get the key of a minimum value
+# sample_dict = {
+#   'Physics': 82,
+#   'Math': 65,
+#   'history': 75
+# }
+# min_key = None
+# min_val = float('inf')
+
+# for k, v in sample_dict.items():
+#     if v < min_val:
+#         min_val = v
+#         min_key = k
+
+# print(min_key)
+
+# # 16 Write a Python program to change
+# #  Brad’s salary to 8500 in the following dictionary
+# sample_dict = {
+#     'emp1': {'name': 'Jhon', 'salary': 7500},
+#     'emp2': {'name': 'Emma', 'salary': 8000},
+#     'emp3': {'name': 'Brad', 'salary': 500}
+# }
+# sample_dict['emp3']['salary']=8500
+# print(sample_dict)
+
+# # 17 Write a code to swap keys and values in a dictionary.
+# #  Assume all values are unique
+# original_dict1 = {'a': 1, 'b': 2, 'c': 3}
+# inverted={}
+# for k,v in original_dict1.items():
+#     inverted[v]=k
+# print(inverted)
+
+
+# 19
